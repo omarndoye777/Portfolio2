@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.calc{
+    width: 100%;
+    max-width: 360px;   
+    margin: 0 auto;
+}
+
+.ecran{
+    height: 50px;
+    width: 100%;       
+    background: rgba(0, 0, 0, 0.2);
+    color: black;
+    border-radius: 14px;
+    border: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+button{
+    background: rgba(146, 124, 124, 0.1);
+    border-radius: 12px;
+    color: black;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.bouton{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.bouton button{
+    height: 50px;
+    width: 100%;
+}
+
+.bbe{
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 340px){
+    .bouton button{
+        height: 44px;
+        font-size: 16px;
+    }
+}

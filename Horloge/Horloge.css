@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background: rgb(182, 28, 28);
+}
+.cercle{
+    font-weight: 900;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow:2px 2px 4px black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur</title>
+    <link rel="stylesheet" href="./convertisseur.css">
+</head>
+<body>
+    <div class="tout">
+        <div class="tout2">
+            <div class="bande"></div>
+            <div class="texte">
+                <h6 class="HH6" id="hh6">INSTRUMENT DE MESURE</h6>
+                <h2 class="hh2" id="hh2">Convertisseur</h2>
+                <p class="p1">Longueur, poids et temperature au dixieme pres</p>
+            </div>
+            <div class="evenement">
+                <div class="button">
+                    <button id="long">Longueur</button>
+                    <button id="poids">Poids</button>
+                    <button id="temps">Temperature</button>
+                </div>
+                <br>
+                <div class="main" id="main">
+                    <p class="p2">VALEUR DE DEPART</p> <br>
+                    <input class="input" id="input" type="number" placeholder="0">
+                    <select class="unite" name="" id="unite">
+                        <option value="cm">Centimetre(cm)</option>
+                        <option value="m">Metre(m)</option>
+                        <option value="km">Kilometre(km)</option>
+                        <option value="mi">Mile(mi)</option>
+                    </select>
+                    <button class="conv" id="conv">&#8593;&#8595;</button>
+                    <br> <br> <br>
+                    <p class="p3">UNITE CIBLE</p>
+                    <select class="unite2" name="" id="unite2">
+                        <option value="cm">Centimetre(cm)</option>
+                        <option value="m">Metre(m)</option>
+                        <option value="km">Kilometre(km)</option>
+                        <option value="mi">Mile(mi)</option>
+                    </select>
+                    <div class="affichage">
+                        <h2 id="hh22">00</h2>
+                        <p class="p3" id="p3"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+    <script src="./convertisseur.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    margin: 0;
+}
+
+.tout{
+    border: 2px solid rgb(31, 31, 67);
+    width: 100%;
+    max-width: 400px;  
+    background: rgb(31, 31, 67); 
+    border-radius: 12px;
+    box-shadow: -5px 5px 5px black;
+}
+.tout2{
+    width: calc(100% - 26px);
+    border: 0.4px solid white;
+    background: rgba(231, 231, 236,0.2);
+    margin: 13px auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px black;
+    padding-bottom: 12px;
+}
+.bande{
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+    background: black;
+}
+.texte{
+    font-family: sans-serif;
+}
+.hh2{
+    margin-top: -20px;
+    margin-left: 12px;
+    font-size: clamp(20px, 6vw, 28px);
+}
+.HH6{
+    margin-left: 12px;
+    margin-top: 5px;
+    color: white;
+    font-size: clamp(12px, 3vw, 14px);
+}
+.p1{
+    margin-top: -18px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.3);
+    margin-left: 12px;
+    font-weight: lighter;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0 12px;
+}
+.button button{
+    margin: 0;
+    background: rgb(31, 31, 67);
+    color: white;
+    border-radius: 8px;
+    flex: 1 1 auto;  
+    min-width: 80px;
+    height: 30px;
+    transition: 0.5s ease;
+}
+button:hover{
+    background: rgba(231, 231, 236,0.06);
+}
+
+.main{
+    padding: 0 12px;
+}
+.p2{
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+    font-weight: lighter; 
+    margin-bottom: 0; 
+}
+.main .input{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main .unite{
+    display: inline-block;
+    vertical-align: middle;
+}
+.input{
+    width: 45%;
+    min-width: 100px;
+    height: 35px;
+    background: rgb(31, 31, 67);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 0 8px;
+}
+.unite{
+    width: 40%;
+    min-width: 100px;
+    height: 41px;
+    margin-left: 8px;
+    background: rgb(31, 31, 67);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.conv{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: block;
+    margin: 10px auto;  
+    background: rgb(31, 31, 67);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    border: none;
+}
+.conv:hover{
+    background: white;
+    color: rgb(31, 31, 67);
+}
+.p3{
+    font-size: 16px;
+    color: rgb(31, 31, 67);
+    font-weight: lighter;
+}
+.unite2{
+    width: 60%;
+    min-width: 100px;
+    height: 28px;
+    background: rgb(31, 31, 67);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.affichage{
+    position: relative;
+    width: 100%;      
+    height: 80px;
+    color: rgb(31, 31, 67);
+    background: white;
+    margin: 12px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+.affichage h2{
+    margin: 0;
+    padding-top: 15px;
+    font-size: clamp(28px, 8vw, 40px);
+}

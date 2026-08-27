@@ -1,0 +1,78 @@
+body{
+    background-image: url(./Afrique.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.hh1{
+    font-size: clamp(22px, 5vw, 40px);
+}
+
+.pour{
+    margin-top: 50px;
+    padding: 0 12px;
+}
+
+.btn{
+    background: rgb(253, 217, 151);
+    height: 32px;
+    width: 80px;
+    margin: 0 6px;
+}
+
+.liste{
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 500px;
+}
+
+.com, .esw, .alg, .ang, .bot{
+    width: 150px;
+    height: 90px;
+    max-width: 60vw;
+    height: auto;
+    object-fit: contain;
+}
+
+.pret, .alger, .luanda, .gaborone, .gitega, .moroni, .mbabane, .moroni1{
+    width: 160px;
+    max-width: 70vw;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(253, 217, 151);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.svt{
+    margin-top: 10px;
+    width: 140px;
+    max-width: 60vw;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background: rgb(253, 217, 151);
+    cursor: pointer;
+}
+
+@media (max-width: 400px){
+    .pret, .alger, .luanda, .gaborone, .gitega, .moroni, .mbabane, .moroni1{
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

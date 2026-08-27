@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les formulaire</title>
+</head>
+<link rel="stylesheet" href="./subcribe.css">
+<body id="bodys">
+    <h1>Formulaire d'inscription</h1>
+    
+    <form id="monFormulaire">
+
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" placeholder="Entrez votre nom complet"/>
+      <span class="obligatoire" id="Nomoblg"></span>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" placeholder="Entrez votre email"/>
+      <span class="obligatoire" id="Emailoblg"></span>
+    
+      <label for="motdepasse">Mot de passe :</label>
+      <input type="password" id="motdepasse" placeholder="Minimum 6 caractères"/>
+      <span class="obligatoire" id="passoblg"></span>
+      <button type="button" onclick="validerFormulaire()">S'inscrire</button>
+    </form>
+    <br>
+    <div id="reussite" class="div"></div>
+  <script src="./subcribe.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon panier</title>
+
+    <link rel="stylesheet" href="./commerce.css">
+</head>
+
+<body>
+
+    <header class="header1">
+        <p>Livraison gratuite à partir de 50.000 francs</p>
+    </header>
+
+    <div class="topbar">
+
+        <div class="cherche1">
+            <p class="Zone">
+                <img src="./shopping-bag.png" alt="" class="shop">
+                Shop<span style="color: rgb(168, 168, 137);">Zone</span>
+            </p>
+        </div>
+
+        <div class="cherche2">
+            <ul>
+                <li>
+                    <a href="./commerce.html"><button>Accueil</button></a>
+                </li>
+
+                <li>
+                    <a href="./produit.html"><button>Produits</button></a>
+                </li>
+
+                <li>
+                    <a href="./panier.html"><button>Panier</button></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <main class="page-panier">
+
+        <h1>Mon panier</h1>
+
+        <div id="panier"></div>
+
+
+        <div class="resume-panier">
+
+            <h2>Résumé de la commande</h2>
+
+            <p>
+                Sous-total :
+                <span id="sousTotal">0</span> fr
+            </p>
+
+            <p>
+                Livraison :
+                <span id="livraison">0</span> fr
+            </p>
+
+            <hr>
+
+            <h2>
+                Total :
+                <span id="total">0</span> fr
+            </h2>
+
+            <button id="viderPanier">
+                Vider le panier
+            </button>
+
+            <button id="commander">
+                Passer la commande
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script src="./panier.js"></script>
+
+</body>
+
+</html>
