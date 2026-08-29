@@ -89,10 +89,10 @@ projet6.addEventListener("click",()=>{
 projet7.addEventListener("click",()=>{
     description.innerHTML="";
     var texte12 = document.createElement("p");
-    texte12.innerHTML =  "Ceci est un <span>site e-commerce</span> pas encore acheve. <br> Vous pouvez voir les <span style='color:rgb(0, 229, 255);'>premieres pages</span> du site et bientot <span style='color:rgb(0, 229, 255);'>passer vos commandes</span>.";
+    texte12.innerHTML =  "Ceci est un <span>site e-commerce</span>. <br> Vous pouvez voir toutes les fonctionnalites <span style='color:rgb(0, 229, 255);'>frontEnd</span> du site ajouter au <span style='color:rgb(0, 229, 255);'>panier</span> et passer vos <span style='color:rgb(0, 229, 255);'>commandes</span>.";
     texte12.style.marginBottom = "10px";
     var texte13 = document.createElement("h3");
-    texte13.innerHTML = "Cliquez et  <a class='a' href='./e-commerce3/commerce.html'>voyez &#8592;</a>";
+    texte13.innerHTML = "Cliquez et faites vos  <a class='a' href='./e-commerce3/commerce.html'>commandes &#8592;</a>";
     texte12.className = "texte";
     texte13.className = "texte2";
     description.appendChild(texte12);
